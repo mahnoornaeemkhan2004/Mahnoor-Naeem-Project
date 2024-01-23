@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('img/picnic1.jpg'); 
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+        }
+
+        nav {
+            padding: 15px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #6B4E64;
+        }
+
+        header {
+            height: 500px;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        section {
+            margin: 20px;
+        }
+
+        .about-content {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .about-content h2 {
+            color: #fff;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .about-content p {
+            color: #ccc;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 2px;
+            text-align: center;
+            padding: 2px;
+        }
+
+        .about-image1,
+        .about-image2 {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .about-image1 img,
+        .about-image2 img {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #b6618e;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            bottom: 0;
+            width: 100%;
+        }
+
+        h1 {
+            margin: 70px;
+            font-size: 70px;
+        }
+
+        h2 {
+            font-size: 40px;
+        }
+
+        @media screen and (max-width: 768px) {
+            .about-content h2 {
+                font-size: 30px;
+            }
+
+            .about-content p {
+                font-size: 14px;
+            }
+
+            .about-image1 img,
+            .about-image2 img {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Noor's Travel</h1>
+        <h2>About Us</h2>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="about.html" style="color: #6B4E64;">About Us</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <section class="about-content">
+        <h2>Welcome to Our Travel World</h2>
+        <p>"We are dedicated to responsible tourism, incorporating sustainable practices to minimize our environmental impact and contribute positively to the communities we explore.
+            Putting our customers first is not just a motto – it's a philosophy. We believe in understanding your individual needs to create tailor-made experiences that resonate with your travel aspirations."
+        </p>
+        
+        <div class="about-image1">
+            <img src="img/pic2.jpg" alt="Travel Image 1"> 
+        </div>
+        <div class="about-image2">
+            <img src="img/pic3.jpg" alt="Travel Image 2">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Noor's Travel. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

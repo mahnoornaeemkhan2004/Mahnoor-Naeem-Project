@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noor's Travel</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('img/back1.jpg'); 
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #fff;
+        }
+
+        header {
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            height: 500px;
+        }
+
+        nav {
+            background-color: transparent;
+            padding: 1em;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #FEADBF;
+        }
+
+        .logo img {
+            width: 150px; 
+        }
+
+        .main-content {
+            padding: 100px 20px; 
+            text-align: center;
+        }
+
+        .main-content h2,
+        .main-content p {
+            margin: 10px;
+        }
+
+        .additional-images {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .additional-images img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #43355D;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            margin-top: 4px;
+        }
+
+        @media screen and (max-width: 768px) {
+            .main-content h2 {
+                font-size: 40px;
+            }
+
+            .main-content p {
+                font-size: 16px;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="Travel Explorer Logo"> 
+        </div>
+        <h1 style="font-size: 70px;"> Noor's Travel</h1>
+        <section class="main-content">
+            <h2 style="font-size: 50px;">Welcome to Travel World</h2>
+            <p style="font-size: 20px;">Explore the world with us and discover your next adventure. From breathtaking destinations to personalized travel packages, we've got it all.</p>
+        </section>
+    </header>
+
+    <nav>
+        <a href="index.html" style="color: #FEADBF;">Home</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <div class="additional-images">
+        <img src="img/pic4.jpg" alt="Travel Image 1"> 
+        <img src="img/pic5.jpg" alt="Travel Image 2"> 
+        <img src="img/pic6.jpg" alt="Travel Image 3"> 
+        <img src="img/picnic2.jpg" alt="Travel Image 4">
+        <img src="img/picnic3.jpg" alt="Travel Image 5">
+        <img src="img/picnic4.jpg" alt="Travel Image 6">
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Noor's Travel. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

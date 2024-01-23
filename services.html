@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ADD5D5;
+        }
+
+        nav {
+            padding: 40px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #0183B7;
+        }
+
+        header {
+            color: #fff;
+            background-repeat: no-repeat;
+            background-image: url(img/services.jpg);
+            text-align: center;
+            height: 500px;
+            padding: 10px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-left: 30px;
+            margin-right: 20px;
+        }
+
+        h1 {
+            margin: 70px;
+            font-size: 60px;
+        }
+
+        .h2 {
+            font-size: 40px;
+        }
+
+        section {
+            margin: 20px;
+        }
+
+        .service {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .service h2 {
+            color: #333;
+        }
+
+        .service p {
+            color: #3559A7;
+        }
+
+        footer {
+            background-color: #21629A;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            bottom: 0;
+            width: 100%;
+        }
+
+        @media screen and (max-width: 768px) {
+            header {
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+
+            h1 {
+                font-size: 40px;
+                margin: 20px;
+                padding: 10px;
+            }
+
+            .h2 {
+                font-size: 30px;
+            }
+
+            .service {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1> Noor's Travel</h1>
+        <h2 class="h2">Our Services</h2>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="services.html" style="color: #0183B7;">Services</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <section>
+        <div class="service">
+            <h2>Flight Booking</h2>
+            <p>Book your flights with us and explore the world.</p>
+        </div>
+
+        <div class="service">
+            <h2>Hotel Reservations</h2>
+            <p>Find the perfect accommodation for your stay.</p>
+        </div>
+
+        <div class="service">
+            <h2>Car Rental</h2>
+            <p>Rent a car and make your travel convenient and comfortable.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Noor's Travel. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
